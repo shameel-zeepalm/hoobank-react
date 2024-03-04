@@ -1,7 +1,12 @@
+import Billing from './components/Billing';
 import Business from './components/Business';
+import CTA from './components/CTA';
+import CardDeal from './components/CardDeal';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Stats from './components/Stats';
+import Testimonials from './components/Testimonials';
 import styles from "./style";
 
 const App = () => (
@@ -20,14 +25,13 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Stats />
         <Business />
-        {/* <Business />
         <Billing />
         <CardDeal />
         <Testimonials />
-        <Clients />
         <CTA />
         <Footer />
-         */}
+
+
       </div>
     </div>
   </div>
